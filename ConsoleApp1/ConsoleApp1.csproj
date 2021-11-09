@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LinkedList.Tests\LinkedList.Tests.csproj" />
+    <ProjectReference Include="..\LinkedList\LinkedList.csproj" />
+    <ProjectReference Include="..\List.Tests\ArrayList.Tests.csproj" />
+    <ProjectReference Include="..\List.Tests\List.Tests.csproj" />
+    <ProjectReference Include="..\List\ArrayList.csproj" />
+    <ProjectReference Include="..\List\List.csproj" />
+  </ItemGroup>
+
+</Project>

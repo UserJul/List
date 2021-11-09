@@ -1,0 +1,11 @@
+C:\Users\checove\source\repos\List\LinkedList\bin\Debug\net5.0\LinkedList.deps.json
+C:\Users\checove\source\repos\List\LinkedList\bin\Debug\net5.0\LinkedList.dll
+C:\Users\checove\source\repos\List\LinkedList\bin\Debug\net5.0\ref\LinkedList.dll
+C:\Users\checove\source\repos\List\LinkedList\bin\Debug\net5.0\LinkedList.pdb
+C:\Users\checove\source\repos\List\LinkedList\obj\Debug\net5.0\LinkedList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\checove\source\repos\List\LinkedList\obj\Debug\net5.0\LinkedList.AssemblyInfoInputs.cache
+C:\Users\checove\source\repos\List\LinkedList\obj\Debug\net5.0\LinkedList.AssemblyInfo.cs
+C:\Users\checove\source\repos\List\LinkedList\obj\Debug\net5.0\LinkedList.csproj.CoreCompileInputs.cache
+C:\Users\checove\source\repos\List\LinkedList\obj\Debug\net5.0\LinkedList.dll
+C:\Users\checove\source\repos\List\LinkedList\obj\Debug\net5.0\ref\LinkedList.dll
+C:\Users\checove\source\repos\List\LinkedList\obj\Debug\net5.0\LinkedList.pdb

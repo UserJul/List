@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "ConsoleApp2/1.0.0": {
+        "dependencies": {
+          "ArrayList": "1.0.0",
+          "LinkedList": "1.0.0"
+        },
+        "runtime": {
+          "ConsoleApp2.dll": {}
+        }
+      },
+      "ArrayList/1.0.0": {
+        "runtime": {
+          "ArrayList.dll": {}
+        }
+      },
+      "LinkedList/1.0.0": {
+        "runtime": {
+          "LinkedList.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleApp2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ArrayList/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LinkedList/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
