@@ -9,3 +9,4 @@ C:\Users\checove\source\repos\List\LinkedList\obj\Debug\net5.0\LinkedList.csproj
 C:\Users\checove\source\repos\List\LinkedList\obj\Debug\net5.0\LinkedList.dll
 C:\Users\checove\source\repos\List\LinkedList\obj\Debug\net5.0\ref\LinkedList.dll
 C:\Users\checove\source\repos\List\LinkedList\obj\Debug\net5.0\LinkedList.pdb
+C:\Users\checove\source\repos\List\LinkedList\obj\Debug\net5.0\LinkedList.csproj.AssemblyReference.cache

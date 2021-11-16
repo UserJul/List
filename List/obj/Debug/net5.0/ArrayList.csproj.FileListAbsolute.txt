@@ -9,3 +9,4 @@ C:\Users\checove\source\repos\List\List\obj\Debug\net5.0\ArrayList.csproj.CoreCo
 C:\Users\checove\source\repos\List\List\obj\Debug\net5.0\ArrayList.dll
 C:\Users\checove\source\repos\List\List\obj\Debug\net5.0\ref\ArrayList.dll
 C:\Users\checove\source\repos\List\List\obj\Debug\net5.0\ArrayList.pdb
+C:\Users\checove\source\repos\List\List\obj\Debug\net5.0\ArrayList.csproj.AssemblyReference.cache

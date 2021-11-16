@@ -113,20 +113,20 @@ namespace LinkedList
 
         public int RemoveFirst(int val)
         {
-            
+
             Node tmp = new Node(0);
             tmp.Next = _root;
             Node current = tmp;
 
             int index = -1;
-            if(current == null)
+            if (current == null)
             {
                 throw new Exception();
             }
-            while(current.Next != null)
+            while (current.Next != null)
             {
                 index++;
-                if(current.Next.Value == val)
+                if (current.Next.Value == val)
                 {
                     current.Next = current.Next.Next;
                     _root = tmp.Next;
@@ -142,11 +142,11 @@ namespace LinkedList
         public void RemoveAt(int index)
         {
             Node current = _root;
-            if(_root == null)
+            if (_root == null)
             {
                 throw new Exception();
             }
-            if(index == 0)
+            if (index == 0)
             {
                 current = current.Next;
                 _root = current;
@@ -159,7 +159,7 @@ namespace LinkedList
                 }
                 current.Next = current.Next.Next;
             }
-           
+
         }
         public void RemoveLast()
         {
@@ -184,15 +184,15 @@ namespace LinkedList
             current.Next = null;
 
         }
-        public void  RemoveLastMultiple(int n)
+        public void RemoveLastMultiple(int n)
         {
             if (_root == null)
             {
                 throw new IndexOutOfRangeException();
             }
-            int length = GetLength(); 
+            int length = GetLength();
             Node current = _root;
-            for (int i = 0; i < length-1 - n; i++)
+            for (int i = 0; i < length - 1 - n; i++)
             {
                 current = current.Next;
 
@@ -205,7 +205,7 @@ namespace LinkedList
             {
                 throw new IndexOutOfRangeException();
             }
-            if(index == 0)
+            if (index == 0)
             {
                 RemoveFirstMultiple(n);
             }
@@ -240,7 +240,144 @@ namespace LinkedList
             }
             _root = current;
         }
-            public void Set(int index, int value)
+        public int RemoveAll(int val)
+        {
+            int sum = 0;
+            Node tmp = new Node(0);
+            tmp.Next = _root;
+            Node current = tmp;
+            if (_root == null)
+            {
+                throw new Exception("Нет элементов");
+            }
+            while (current.Next != null)
+            {
+                if (current.Next.Value == val)
+                {
+                    current.Next = current.Next.Next;
+                    _root = tmp.Next;
+
+                    sum += 1;
+
+                }
+                else
+                {
+                    current = current.Next;
+                }
+
+            }
+            return sum;
+        }
+        public bool Contains(int val)
+        {
+            Node current = _root;
+            if (_root == null)
+            {
+                return false;
+            }
+            while (current.Next != null)
+            {
+                if (current.Value == val)
+                {
+                    return true;
+                }
+                current = current.Next;
+            }
+            return false;
+        }
+        public int IndexOf(int val)
+        {
+            Node current = _root;
+            int index = -1;
+            int i = 0;
+            if (_root == null)
+            {
+                throw new Exception("массив пуст");
+            }
+            while (current != null)
+            {
+
+                if (current.Value == val)
+                {
+                    index = i;
+
+                    break;
+                }
+                i += 1;
+                current = current.Next;
+            }
+            return index;
+        }
+        public int IndexOfMax()
+        {
+            Node current = _root;
+            int max = current.Value;
+            int idx = 0;
+            int i = 0;
+            if (_root == null)
+            {
+                throw new Exception("Массив пуст");
+            }
+            while (current.Next != null)
+            {
+                i += 1;
+                if (max < current.Next.Value)
+                {
+                    idx = i;
+                    max = current.Next.Value;
+                }
+
+                current = current.Next;
+            }
+
+            return idx;
+        }
+        public int IndexOfMin()
+        {
+            Node current = _root;
+            int tmp = current.Value;
+            int idx = 0;
+            int i = 0;
+            if (_root == null)
+            {
+                throw new Exception("Массив пуст");
+            }
+            while (current.Next != null)
+            {
+                i += 1;
+                if (current.Next.Value < tmp)
+                {
+                    idx = i;
+                    tmp = current.Next.Value;
+
+                }
+                current = current.Next;
+            }
+            return idx;
+        }
+
+        public void Reverse()
+        {
+            if (_root == null)
+            {
+                throw new Exception("Нечего сортировать");
+            }
+            Node current = _root;
+            Node prev = null;
+            Node next = _root;
+
+            while (current != null)
+            {
+                next = next.Next;
+                current.Next = prev;
+
+                prev = current;
+                current = next;
+            }
+            _root = prev;
+
+        }
+        public void Set(int index, int value)
         {
             Node current = _root;
 

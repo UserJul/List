@@ -1,0 +1,12 @@
+C:\Users\checove\source\repos\List\DoubleLinkidList\bin\Debug\net5.0\DoubleLinkidList.deps.json
+C:\Users\checove\source\repos\List\DoubleLinkidList\bin\Debug\net5.0\DoubleLinkidList.dll
+C:\Users\checove\source\repos\List\DoubleLinkidList\bin\Debug\net5.0\ref\DoubleLinkidList.dll
+C:\Users\checove\source\repos\List\DoubleLinkidList\bin\Debug\net5.0\DoubleLinkidList.pdb
+C:\Users\checove\source\repos\List\DoubleLinkidList\obj\Debug\net5.0\DoubleLinkidList.csproj.AssemblyReference.cache
+C:\Users\checove\source\repos\List\DoubleLinkidList\obj\Debug\net5.0\DoubleLinkidList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\checove\source\repos\List\DoubleLinkidList\obj\Debug\net5.0\DoubleLinkidList.AssemblyInfoInputs.cache
+C:\Users\checove\source\repos\List\DoubleLinkidList\obj\Debug\net5.0\DoubleLinkidList.AssemblyInfo.cs
+C:\Users\checove\source\repos\List\DoubleLinkidList\obj\Debug\net5.0\DoubleLinkidList.csproj.CoreCompileInputs.cache
+C:\Users\checove\source\repos\List\DoubleLinkidList\obj\Debug\net5.0\DoubleLinkidList.dll
+C:\Users\checove\source\repos\List\DoubleLinkidList\obj\Debug\net5.0\ref\DoubleLinkidList.dll
+C:\Users\checove\source\repos\List\DoubleLinkidList\obj\Debug\net5.0\DoubleLinkidList.pdb
