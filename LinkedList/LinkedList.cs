@@ -38,6 +38,54 @@ namespace LinkedList
                 _tail = null;
             }
         }
+        public int this[int index]
+        {
+            get
+            {
+                if (index > GetLength() - 1)
+                {
+                    throw new IndexOutOfRangeException();
+                }
+                if (index < 0)
+                {
+                    throw new IndexOutOfRangeException();
+                }
+                if (GetLength() == 0)
+                {
+                    throw new Exception("массив пуст");
+                }
+                Node current = _root;
+                for (int i = 1; i <= index; i++)
+                {
+                    current = current.Next;
+
+                }
+                return current.Value;
+
+            }
+            set
+            {
+                if (index > GetLength() - 1)
+                {
+                    throw new IndexOutOfRangeException();
+                }
+                if (index < 0)
+                {
+                    throw new IndexOutOfRangeException();
+                }
+                if (GetLength() == 0)
+                {
+                    throw new Exception("массив пуст");
+                }
+                Node current = _root;
+                for (int i = 1; i <= index; i++)
+                {
+                    current = current.Next;
+
+                }
+                current.Value = value;
+            }
+        }
         public int GetLength()
         {
             int Length = 0;
@@ -354,6 +402,34 @@ namespace LinkedList
                 current = current.Next;
             }
             return idx;
+        }
+        public int GetFirst()
+        {
+            if (_root == null)
+            {
+                throw new NullReferenceException("Массив пуст");
+            }
+            else
+            {
+                Node current = _root;
+                return current.Value;
+            }
+        }
+        public int GetLast()
+        {
+            if (_root == null)
+            {
+                throw new NullReferenceException("Массив пуст");
+            }
+            else
+            {
+                Node current = _tail;
+                return current.Value;
+            }
+        }
+        public int Get(int index)
+        {
+            return this[index];
         }
 
         public void Reverse()
